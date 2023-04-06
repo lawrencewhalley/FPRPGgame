@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b02d5ef8a0607e488322b63fed4e028, type: 3}
+  m_Name: Dagger RH
+  m_EditorClassIdentifier: 
+  name: Dagger RH
+  icon: {fileID: 21300000, guid: f7f30e1a9ac31d84c82740f6cc55a284, type: 3}
+  isDefaultItem: 0
+  equipSlot: 3
+  mesh: {fileID: 7229389845376749918, guid: 4f0074894221b8d4cb501eecba1d58c1, type: 3}
+  armorModifier: 0
+  damageModifier: 2
+  healthModifier: 0
