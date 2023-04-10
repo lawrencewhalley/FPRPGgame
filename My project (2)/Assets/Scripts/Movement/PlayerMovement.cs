@@ -23,7 +23,6 @@ public class PlayerMovement : MonoBehaviour
     private bool isGrounded;
     private bool sprinting;
     public CharacterStats characterStats;
-    public GameObject helmet;
 
 
     [SerializeField] private StaminaScript StaminaBar;
