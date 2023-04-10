@@ -412,11 +412,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1dd764eac3408d74f8cbd70dcab6d566, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnitemPickup:
-    m_PersistentCalls:
-      m_Calls: []
-  triggerZone: {fileID: 2004464534}
-  item: {fileID: 11400000, guid: 89c3ed027596ddf45842222ea6474a95, type: 2}
 --- !u!65 &63141405
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -985,9 +980,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe9c57c585903ba4fa7820a38a535653, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  EPromptCanvas: {fileID: 756622433}
-  hasEnteredZone: 0
-  PlayerEnteringtheZone: {fileID: 0}
 --- !u!65 &216073462
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2245,9 +2237,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe9c57c585903ba4fa7820a38a535653, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  EPromptCanvas: {fileID: 756622433}
-  hasEnteredZone: 0
-  PlayerEnteringtheZone: {fileID: 0}
 --- !u!65 &373013901
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3343,11 +3332,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1dd764eac3408d74f8cbd70dcab6d566, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnitemPickup:
-    m_PersistentCalls:
-      m_Calls: []
-  triggerZone: {fileID: 2036442598}
-  item: {fileID: 11400000, guid: 54c120802ec301446b4d4c821706d293, type: 2}
 --- !u!65 &528413257
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3408,9 +3392,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe9c57c585903ba4fa7820a38a535653, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  EPromptCanvas: {fileID: 756622433}
-  hasEnteredZone: 0
-  PlayerEnteringtheZone: {fileID: 0}
 --- !u!65 &538357342
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5049,9 +5030,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe9c57c585903ba4fa7820a38a535653, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  EPromptCanvas: {fileID: 756622433}
-  hasEnteredZone: 0
-  PlayerEnteringtheZone: {fileID: 0}
 --- !u!65 &782239728
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6454,11 +6432,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1dd764eac3408d74f8cbd70dcab6d566, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnitemPickup:
-    m_PersistentCalls:
-      m_Calls: []
-  triggerZone: {fileID: 782239727}
-  item: {fileID: 11400000, guid: 8e3bbbb4bbf4fcc4ebf724c49f92d52c, type: 2}
 --- !u!65 &995168279
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6995,9 +6968,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2c3213cf1e13a794e978866db8559b48, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_active: 1
-  m_owner: {fileID: 2112266943}
-  m_hurtboxType: 2
 --- !u!136 &1073381541
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -7045,11 +7015,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0df57000fdbc84d49be99aebb4a4974b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_collider: {fileID: 1082793755}
-  m_layerMask:
-    serializedVersion: 2
-    m_Bits: 128
-  m_hurtboxMask: 2
 --- !u!114 &1082793754
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7062,9 +7027,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 264912f73d6b4da40abe8353cc937262, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_attack: 0
-  m_damage: 10
-  _hitbox: {fileID: 1082793753}
 --- !u!65 &1082793755
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8532,9 +8494,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe9c57c585903ba4fa7820a38a535653, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  EPromptCanvas: {fileID: 756622433}
-  hasEnteredZone: 0
-  PlayerEnteringtheZone: {fileID: 0}
 --- !u!65 &1400073360
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10264,9 +10223,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62955d3ad7f222d4b8f47e5d291fc845, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objectfollowing: {fileID: 919132148011465404}
-  objectwantingtoMove: {fileID: 1691094766}
-  offset: {x: 0, y: 0, z: 0}
 --- !u!114 &1691094769
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10710,11 +10666,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1dd764eac3408d74f8cbd70dcab6d566, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnitemPickup:
-    m_PersistentCalls:
-      m_Calls: []
-  triggerZone: {fileID: 538357341}
-  item: {fileID: 11400000, guid: d1b347802766e874a86f62d5f0a399ea, type: 2}
 --- !u!65 &1758050771
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10775,11 +10726,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1dd764eac3408d74f8cbd70dcab6d566, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnitemPickup:
-    m_PersistentCalls:
-      m_Calls: []
-  triggerZone: {fileID: 1400073359}
-  item: {fileID: 11400000, guid: e979b9b6017bfd843898122c2c194c8f, type: 2}
 --- !u!65 &1764528231
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11644,9 +11590,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe9c57c585903ba4fa7820a38a535653, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  EPromptCanvas: {fileID: 756622433}
-  hasEnteredZone: 0
-  PlayerEnteringtheZone: {fileID: 0}
 --- !u!65 &2004464535
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11943,9 +11886,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe9c57c585903ba4fa7820a38a535653, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  EPromptCanvas: {fileID: 756622433}
-  hasEnteredZone: 0
-  PlayerEnteringtheZone: {fileID: 0}
 --- !u!65 &2036442599
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12437,9 +12377,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c5a59bea2bba0c84bb8bfccf3e15bca8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_targetable: 1
-  m_targetTransform: {fileID: 2112266949}
-  m_rbenemy: {fileID: 2112266944}
 --- !u!136 &2112266946
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -13060,10 +12997,10 @@ GameObject:
   - component: {fileID: 543450651664654342}
   - component: {fileID: 2912437507798040490}
   - component: {fileID: 2912437507798040491}
-  - component: {fileID: 2912437507798040488}
   - component: {fileID: 2912437507798040495}
-  - component: {fileID: 2912437507798040494}
   - component: {fileID: 2912437507798040493}
+  - component: {fileID: 2912437507798040497}
+  - component: {fileID: 2912437507798040496}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -13211,11 +13148,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1dd764eac3408d74f8cbd70dcab6d566, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnitemPickup:
-    m_PersistentCalls:
-      m_Calls: []
-  triggerZone: {fileID: 373013900}
-  item: {fileID: 11400000, guid: e55d5dd2f249fe141b62b4506a7dacd7, type: 2}
 --- !u!1 &1904779273228117099
 GameObject:
   m_ObjectHideFlags: 0
@@ -13407,11 +13339,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1dd764eac3408d74f8cbd70dcab6d566, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnitemPickup:
-    m_PersistentCalls:
-      m_Calls: []
-  triggerZone: {fileID: 216073461}
-  item: {fileID: 11400000, guid: ffa720391bf955640bf5e8a6b256b45b, type: 2}
 --- !u!65 &2357463943419808438
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13593,7 +13520,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2912437507694345296}
-  m_LocalRotation: {x: 0.12066459, y: -0.0000000042701656, z: 5.1905036e-10, w: 0.99269336}
+  m_LocalRotation: {x: 0.12066459, y: 0.000000004270164, z: -5.190502e-10, w: 0.99269336}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -13647,28 +13574,6 @@ MonoBehaviour:
         m_Calls: []
   m_LegacyBlendHint: 0
   m_ComponentOwner: {fileID: 2912437507813643014}
---- !u!114 &2912437507798040488
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 919132148011465404}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3e1c24730ef226043845a306f057f348, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 5
-  sprintSpeed: 10
-  originalSpeed: 5
-  jumpSpeed: 5
-  jumpButtonGracePeriod: 0.2
-  cameraSettings: {fileID: 2912437507798040493}
-  staminaDrainRate: 20
-  cameraTransform: {fileID: 2912437508719241480}
-  characterStats: {fileID: 2912437507798040495}
-  StaminaBar: {fileID: 811827100}
 --- !u!143 &2912437507798040490
 CharacterController:
   m_ObjectHideFlags: 0
@@ -13725,20 +13630,6 @@ MonoBehaviour:
   fpCameraEnabled: 0
   camera1: {fileID: 2912437508719241481}
   camera2: {fileID: 1691094771}
---- !u!114 &2912437507798040494
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 919132148011465404}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cb397cd11362f5c499fc83f97f04a7e6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  attackSpeed: 1
-  attackDelay: 0.6
 --- !u!114 &2912437507798040495
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13762,6 +13653,42 @@ MonoBehaviour:
   health:
     baseValue: 100
   _healthbar: {fileID: 1049234000}
+--- !u!114 &2912437507798040496
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 919132148011465404}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b1236f36ff7cdf4ab483079e4497bc4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attackSpeed: 1
+  attackDelay: 0.6
+--- !u!114 &2912437507798040497
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 919132148011465404}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8cfc839cc630e9c4badd8920a8a23b4f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 5
+  sprintSpeed: 10
+  originalSpeed: 5
+  jumpSpeed: 5
+  jumpButtonGracePeriod: 0.2
+  cameraSettings: {fileID: 2912437507798040493}
+  staminaDrainRate: 20
+  cameraTransform: {fileID: 2912437509134136311}
+  characterStats: {fileID: 2912437507798040495}
+  StaminaBar: {fileID: 811827100}
 --- !u!114 &2912437507813643012
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -14118,7 +14045,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2912437508329631892}
-  m_LocalRotation: {x: 0.10263582, y: 0.000000004278879, z: -4.4149776e-10, w: 0.994719}
+  m_LocalRotation: {x: 0.10263582, y: -0.000000004278879, z: 4.4149776e-10, w: 0.994719}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -14318,7 +14245,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2912437508719241524}
-  m_LocalRotation: {x: 0.1206646, y: -0.000000004270166, z: 5.1905036e-10, w: 0.99269336}
+  m_LocalRotation: {x: 0.1206646, y: 0.0000000042701642, z: -5.190502e-10, w: 0.99269336}
   m_LocalPosition: {x: 3.6818523, y: 5.0263796, z: -17.522295}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -14494,7 +14421,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9acd4f1ebf758ef4f871cb570e25fb0f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 919132148011465404}
 --- !u!114 &2912437508861221948
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14507,9 +14433,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f138fdac5abb724438f9656c15bd23df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TargetMesh: {fileID: 7351361736396530236}
-  currentEquipment: []
-  _healthbar: {fileID: 1049234000}
 --- !u!4 &2912437508861221949
 Transform:
   m_ObjectHideFlags: 0
@@ -14537,8 +14460,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 50327249b684eb14a85068bc891141ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  space: 20
-  items: []
 --- !u!1 &2912437508861221951
 GameObject:
   m_ObjectHideFlags: 0
